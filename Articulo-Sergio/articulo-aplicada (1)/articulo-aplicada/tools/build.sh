@@ -1,5 +1,9 @@
-#!/usr/bin/env bash
-set -euo pipefail
+#!/usr/bin/env sh
+# Fail on error/undefined vars; pipefail when available (BusyBox dash lacks it)
+set -eu
+if set -o pipefail 2>/dev/null; then
+  :
+fi
 
 # Add TeX Live to PATH
 export PATH="/opt/texlive/bin:$PATH"

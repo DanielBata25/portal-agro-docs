@@ -1,1 +1,21 @@
-\section{Conclusiones y trabajo futuro}
+\section{Conclusiones y Trabajo Futuro}
+
+Al bajar el telón de esta fase del Portal Agro-Comercial, nos llevamos dos certezas muy claras: una social y otra estrictamente ingenieril.
+
+Por un lado, probamos en carne propia que la tecnología web moderna sí tiene cabida en el campo. Lo que vimos en Teruel no fue solo un ejercicio académico; demostramos que herramientas como la identidad digital y los códigos QR son palancas reales para eliminar intermediarios. El campesino no necesita ser ingeniero de sistemas para vender, solo necesita herramientas que no le estorben.
+
+Por otro lado, la lección técnica fue tajante: para que iniciativas como esta sobrevivan, no pueden seguir dependiendo de despliegues monolíticos ``a la antigua''. Nuestra investigación confirma que adoptar una arquitectura de \textit{Feature Toggles} no es un lujo, sino el paso evolutivo obligatorio. Como bien dicen \cite{meyer2016continuous}, en un sistema vivo, la entrega continua no es negociable. Al separar el acto técnico de instalar código del acto comercial de activarlo, le garantizamos al usuario rural la estabilidad que necesita. No podemos permitirnos el riesgo de ``romper'' la plataforma con cada actualización.
+
+Somos conscientes del precio a pagar. Alineados con \cite{sharma2024complexity}, sabemos que esta decisión complica el código. Pero seamos realistas: en un contexto donde el soporte técnico en sitio es escaso o nulo, ese costo se paga con gusto a cambio de ganar resiliencia y capacidad de reacción remota.
+
+\subsection{Lo que sigue (Trabajo Futuro)}
+
+No nos quedaremos en el papel. La hoja de ruta para que el Portal crezca tiene tres paradas obligatorias:
+
+\begin{enumerate}
+    \item \textbf{Prueba de Fuego en Producción:} Una cosa es que la arquitectura aguante en el papel y otra muy distinta es que sobreviva al tráfico real. No nos interesa la perfección teórica; nos interesa que funcione. El siguiente paso es inyectar el patrón \textit{Decorator} en .NET y la carga diferida en Angular para medir, sin filtros, si el sistema mantiene la velocidad bajo estrés operativo.
+
+    \item \textbf{Automatización contra el Olvido:} Hay que asumir una verdad incómoda: si dejamos la limpieza a la memoria del desarrollador, vamos a fallar. Para que el portal no termine siendo un basurero de código muerto, seremos radicales. Usaremos scripts de análisis estático inspirados en Piranha \cite{sridharan2020piranha} para que el mismo sistema nos obligue a eliminar las banderas caducas. O se automatiza, o la deuda técnica nos come.
+
+    \item \textbf{Estrategia de Mercado en el Código:} Más allá de la ingeniería, queremos que los toggles muevan el negocio. La meta es usar marcos como HORIZON \cite{chen2025horizon} para segmentar usuarios desde el núcleo. La visión es simple: que el mismo código se adapte solo, ofreciendo herramientas pro a las cooperativas grandes sin obligarnos a mantener múltiples versiones del software.
+\end{enumerate}

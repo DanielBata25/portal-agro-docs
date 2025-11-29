@@ -1,0 +1,94 @@
+This is BibTeX, Version 0.99d (TeX Live 2025)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main_acm.aux
+The style file: ACM-Reference-Format.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: bibliography/references.bib
+Warning--entry type for "ortiz2021toggledebt" isn't style-file defined
+--line 305 of file bibliography/references.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--no number and no volume in abdalkareem2021removal
+Warning--page numbers missing in both pages and numpages fields in abdalkareem2021removal
+Warning--no number and no volume in ajmeri2022heuristics
+Warning--page numbers missing in both pages and numpages fields in ajmeri2022heuristics
+Warning--no number and no volume in chen2025horizon
+Warning--page numbers missing in both pages and numpages fields in chen2025horizon
+Warning--no number and no volume in esther2025microservices
+Warning--page numbers missing in both pages and numpages fields in esther2025microservices
+Warning--no number and no volume in hal2022interaction
+Warning--page numbers missing in both pages and numpages fields in hal2022interaction
+Warning--no number and no volume in garcia2007informacion
+Warning--page numbers missing in both pages and numpages fields in garcia2007informacion
+Warning--no number and no volume in garcia2021practitioners
+Warning--page numbers missing in both pages and numpages fields in garcia2021practitioners
+Warning--no number and no volume in lee2025frontend
+Warning--page numbers missing in both pages and numpages fields in lee2025frontend
+Warning--no number and no volume in li2020capture
+Warning--page numbers missing in both pages and numpages fields in li2020capture
+Warning--no number and no volume in meyer2016continuous
+Warning--page numbers missing in both pages and numpages fields in meyer2016continuous
+Warning--no number and no volume in rahman2019chrome
+Warning--page numbers missing in both pages and numpages fields in rahman2019chrome
+Warning--no number and no volume in rahman2016msr
+Warning--page numbers missing in both pages and numpages fields in rahman2016msr
+Warning--no number and no volume in ramaswamy2024zerodowntime
+Warning--page numbers missing in both pages and numpages fields in ramaswamy2024zerodowntime
+Warning--no number and no volume in sharma2024complexity
+Warning--page numbers missing in both pages and numpages fields in sharma2024complexity
+Warning--no number and no volume in smith2022interdependencies
+Warning--page numbers missing in both pages and numpages fields in smith2022interdependencies
+Warning--no number and no volume in sridharan2020piranha
+Warning--page numbers missing in both pages and numpages fields in sridharan2020piranha
+Warning--no number and no volume in torres2020differences
+Warning--page numbers missing in both pages and numpages fields in torres2020differences
+Warning--no number and no volume in wang2025tsdetector
+Warning--page numbers missing in both pages and numpages fields in wang2025tsdetector
+You've used 19 entries,
+            6273 wiz_defined-function locations,
+            1613 strings with 22137 characters,
+and the built_in function-call counts, 19379 in all, are:
+= -- 3069
+> -- 519
+< -- 0
++ -- 180
+- -- 231
+* -- 1200
+:= -- 1750
+add.period$ -- 94
+call.type$ -- 19
+change.case$ -- 109
+chr.to.int$ -- 19
+cite$ -- 55
+duplicate$ -- 1582
+empty$ -- 1167
+format.name$ -- 287
+if$ -- 5102
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 72
+newline$ -- 266
+num.names$ -- 133
+pop$ -- 705
+preamble$ -- 1
+purify$ -- 261
+quote$ -- 0
+skip$ -- 491
+stack$ -- 0
+substring$ -- 1047
+swap$ -- 76
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 318
+warning$ -- 36
+while$ -- 133
+width$ -- 0
+write$ -- 454
+(There were 37 warnings)

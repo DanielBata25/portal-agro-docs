@@ -1,0 +1,38 @@
+\begin{table*}[hbt]
+\ifnextchar[{\eatarg}{}
+[htbp]
+\centering
+\caption{Clasificación y Propósito de Feature Toggles según la Literatura}
+\label{tab:toggle_types}
+\small
+\begin{tabular}{p{2.5cm} p{3.5cm} p{1.5cm}}
+\toprule
+\textbf{Tipo de Toggle} & \textbf{Propósito Principal} & \textbf{Duración} \\
+\midrule
+Release Toggles & Desacoplar despliegue de liberación de funciones \cite{rahman2016msr}. & Corta \\
+Business Toggles & Habilitar funciones premium o por segmento de usuario \cite{chen2025horizon}. & Larga \\
+Ops Toggles & Controlar aspectos operativos bajo carga (ej. deshabilitar reportes pesados) \cite{ramaswamy2024zerodowntime}. & Media \\
+Permission Toggles & Modificar comportamiento según rol (Admin/Productor) \cite{ajmeri2022heuristics}. & Larga \\
+\bottomrule
+\end{tabular}
+\end{table*}
+\efloatseparator
+ 
+\begin{table*}[hbt]
+\ifnextchar[{\eatarg}{}
+[htbp]
+\centering
+\caption{Proyección de Impacto: Arquitectura Tradicional vs. Feature Toggles}
+\label{tab:impact_analysis}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Métrica de Ingeniería} & \textbf{Actual} & \textbf{Con Toggles} \\
+\midrule
+Tiempo de Downtime por Despliegue & $\sim$ 20 min & $\sim$ 0 min \\
+Complejidad Ciclomática Promedio & Baja & Media (+14\%) \\
+Riesgo de Rollback Fallido & Alto & Bajo \\
+Deuda Técnica Potencial & Baja & Alta (requiere gestión) \\
+Capacidad de Experimentación & Nula & Alta (Canary/A-B) \\
+\bottomrule
+\end{tabular}
+\end{table*}

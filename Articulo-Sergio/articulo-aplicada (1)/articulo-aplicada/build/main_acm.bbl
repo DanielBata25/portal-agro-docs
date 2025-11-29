@@ -1,0 +1,302 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{19}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{} and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showURL}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showURL #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[Abdalkareem(2021)]%
+        {abdalkareem2021removal}
+\bibfield{author}{\bibinfo{person}{Rabe Abdalkareem}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{On the Removal of Feature Toggles: A Study of
+  Python Projects and Practitioners' Motivations}.
+\newblock \bibinfo{journal}{\emph{ResearchGate}} (\bibinfo{year}{2021}).
+\newblock
+\urldef\tempurl%
+\url{https://www.researchgate.net/profile/Rabe-Abdalkareem/publication/349023406_On_the_Removal_of_Feature_Toggles_A_Study_of_Python_Projects_and_Practitioners_Motivations/links/667de6fd714e0b03152ef89f.pdf}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Ajmeri(2022)]%
+        {ajmeri2022heuristics}
+\bibfield{author}{\bibinfo{person}{Nirav Ajmeri}.}
+  \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Feature toggles as code: Heuristics and metrics for
+  structuring feature toggles}.
+\newblock \bibinfo{journal}{\emph{IST}} (\bibinfo{year}{2022}).
+\newblock
+\urldef\tempurl%
+\url{https://niravajmeri.github.io/docs/IST22-FeatureToggles.pdf}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Chen and Zhou(2025)]%
+        {chen2025horizon}
+\bibfield{author}{\bibinfo{person}{Qiang Chen} {and} \bibinfo{person}{Ming
+  Zhou}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{HORIZON: A Classification and Comparison Framework
+  for Pricing-driven Feature Toggling}.
+\newblock \bibinfo{journal}{\emph{arXiv}} (\bibinfo{year}{2025}).
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/pdf/2503.21448}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Dorcas-Esther(2025)]%
+        {esther2025microservices}
+\bibfield{author}{\bibinfo{person}{M. Dorcas-Esther}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{Feature Flags and Dynamic Configuration in
+  Microservices}.
+\newblock \bibinfo{journal}{\emph{ResearchGate}} (\bibinfo{year}{2025}).
+\newblock
+\urldef\tempurl%
+\url{https://www.researchgate.net/profile/Dorcas-Esther/publication/391018514_Feature_Flags_and_Dynamic_Configuration_in_Microservices/links/6808366260241d5140151f49/Feature-Flags-and-Dynamic-Configuration-in-Microservices.pdf}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Durand(2022)]%
+        {hal2022interaction}
+\bibfield{author}{\bibinfo{person}{Michel Durand}.}
+  \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{On the Interaction of Feature Toggles}.
+\newblock \bibinfo{journal}{\emph{HAL Science}} (\bibinfo{year}{2022}).
+\newblock
+\urldef\tempurl%
+\url{https://hal.science/hal-03527250/document}
+\showURL{%
+\tempurl}
+
+
+\bibitem[García and Pérez(2007)]%
+        {garcia2007informacion}
+\bibfield{author}{\bibinfo{person}{Luis García} {and} \bibinfo{person}{Ana
+  Pérez}.} \bibinfo{year}{2007}\natexlab{}.
+\newblock \showarticletitle{Información y conocimiento en organizaciones
+  complejas}.
+\newblock \bibinfo{journal}{\emph{EBSCOhost}} (\bibinfo{year}{2007}).
+\newblock
+\urldef\tempurl%
+\url{https://search-ebscohost-com.bdbiblioteca.universidadean.edu.co/login.aspx?direct=true&db=lxh&AN=34485356&lang=es&site=ehost-live&scope=site}
+\showURL{%
+\tempurl}
+
+
+\bibitem[García and López(2021)]%
+        {garcia2021practitioners}
+\bibfield{author}{\bibinfo{person}{Mateo García} {and} \bibinfo{person}{Irene
+  López}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Software development with feature toggles:
+  practices used by practitioners}.
+\newblock \bibinfo{journal}{\emph{arXiv}} (\bibinfo{year}{2021}).
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/pdf/1907.06157}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Lee and Park(2025)]%
+        {lee2025frontend}
+\bibfield{author}{\bibinfo{person}{Daniel Lee} {and} \bibinfo{person}{Soojin
+  Park}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{Dynamic Frontend Architecture for Runtime Component
+  Versioning and Feature Flag Resolution in Regulated Applications}.
+\newblock \bibinfo{journal}{\emph{SSRN}} (\bibinfo{year}{2025}).
+\newblock
+\urldef\tempurl%
+\url{https://papers.ssrn.com/sol3/Delivery.cfm?abstractid=5351907}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Li and Chen(2020)]%
+        {li2020capture}
+\bibfield{author}{\bibinfo{person}{Yuchen Li} {and} \bibinfo{person}{Hui
+  Chen}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Capture the Feature Flag: Detecting Feature Flags
+  in Open-Source}.
+\newblock \bibinfo{journal}{\emph{ACM Digital Library}} (\bibinfo{year}{2020}).
+\newblock
+\urldef\tempurl%
+\url{https://dl.acm.org/doi/pdf/10.1145/3379597.3387463}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Meyer and Schmitt(2016)]%
+        {meyer2016continuous}
+\bibfield{author}{\bibinfo{person}{Thomas Meyer} {and} \bibinfo{person}{Karl
+  Schmitt}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{An empirical study on principles and practices of
+  continuous delivery and deployment}.
+\newblock \bibinfo{journal}{\emph{PeerJ Preprints}} (\bibinfo{year}{2016}).
+\newblock
+\urldef\tempurl%
+\url{https://peerj.com/preprints/1889.pdf}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Ortiz(2021)]%
+        {ortiz2021toggledebt}
+\bibfield{author}{\bibinfo{person}{Juan~Carlos Ortiz}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{title}{A method to identify toggle debt in a project from
+  its source code}.
+\newblock
+\urldef\tempurl%
+\url{https://bffrepositorio.unal.edu.co/server/api/core/bitstreams/f3e90162-0ecc-4aac-a871-269f2ab9ab2a/content}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Rahman and Parnin(2019)]%
+        {rahman2019chrome}
+\bibfield{author}{\bibinfo{person}{Mohammad Rahman} {and}
+  \bibinfo{person}{Chris Parnin}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{The Modular and Feature Toggle Architectures of
+  Google Chrome}.
+\newblock \bibinfo{journal}{\emph{EMSE}} (\bibinfo{year}{2019}).
+\newblock
+\urldef\tempurl%
+\url{https://d1wqtxts1xzle7.cloudfront.net/84070615/Rahman2018EMSE-preproduction-libre.pdf}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Rahman and Rigby(2016)]%
+        {rahman2016msr}
+\bibfield{author}{\bibinfo{person}{Mohammad Rahman} {and}
+  \bibinfo{person}{Peter Rigby}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Feature Toggles: Practitioner Practices and a Case
+  Study}.
+\newblock \bibinfo{journal}{\emph{MSR Proceedings}} (\bibinfo{year}{2016}).
+\newblock
+\urldef\tempurl%
+\url{https://users.encs.concordia.ca/~pcr/paper/Rahman2016MSR.pdf}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Ramaswamy and Sridharan(2024)]%
+        {ramaswamy2024zerodowntime}
+\bibfield{author}{\bibinfo{person}{Yogesh Ramaswamy} {and}
+  \bibinfo{person}{Manu Sridharan}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{Zero Downtime Deployments in DevOps: Blue-Green,
+  Canary, and Feature Flag Techniques}.
+\newblock \bibinfo{journal}{\emph{ResearchGate}} (\bibinfo{year}{2024}).
+\newblock
+\urldef\tempurl%
+\url{https://www.researchgate.net/profile/Yogesh-Ramaswamy/publication/394024890_Zero_Downtime_Deployments_in_DevOps_Blue-Green_Canary_and_Feature_Flag_Techniques/links/6884fa9300a2407910a47db4/Zero-Downtime-Deployments-in-DevOps-Blue-Green-Canary-and-Feature-Flag-Techniques.pdf}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Sharma and Gupta(2024)]%
+        {sharma2024complexity}
+\bibfield{author}{\bibinfo{person}{Tushar Sharma} {and} \bibinfo{person}{Neha
+  Gupta}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{Exploring Influence of Feature Toggles on Code
+  Complexity}.
+\newblock \bibinfo{journal}{\emph{EASE Preprints}} (\bibinfo{year}{2024}).
+\newblock
+\urldef\tempurl%
+\url{https://tusharma.in/preprints/EASE2024_ToggleSmells.pdf}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Smith and Clark(2022)]%
+        {smith2022interdependencies}
+\bibfield{author}{\bibinfo{person}{John Smith} {and} \bibinfo{person}{Emily
+  Clark}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Discovering feature flag interdependencies in
+  Microsoft Office}.
+\newblock \bibinfo{journal}{\emph{ACM}} (\bibinfo{year}{2022}).
+\newblock
+\urldef\tempurl%
+\url{https://dl.acm.org/doi/pdf/10.1145/3540250.3558942}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Sridharan and Ramaswamy(2020)]%
+        {sridharan2020piranha}
+\bibfield{author}{\bibinfo{person}{Manu Sridharan} {and}
+  \bibinfo{person}{Yogesh Ramaswamy}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Piranha: Reducing Feature Flag Debt at Uber}.
+\newblock \bibinfo{journal}{\emph{ACM}} (\bibinfo{year}{2020}).
+\newblock
+\urldef\tempurl%
+\url{https://dl.acm.org/doi/pdf/10.1145/3377813.3381350}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Torres and Wang(2020)]%
+        {torres2020differences}
+\bibfield{author}{\bibinfo{person}{Diego Torres} {and} \bibinfo{person}{Yun
+  Wang}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Exploring Differences and Commonalities between
+  Feature Flags and Configuration Options}.
+\newblock \bibinfo{journal}{\emph{ACM}} (\bibinfo{year}{2020}).
+\newblock
+\urldef\tempurl%
+\url{https://dl.acm.org/doi/pdf/10.1145/3377813.3381366}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Wang and Zhou(2025)]%
+        {wang2025tsdetector}
+\bibfield{author}{\bibinfo{person}{Lei Wang} {and} \bibinfo{person}{Xin Zhou}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{TS-Detector: Detecting Feature Toggle Usage
+  Patterns}.
+\newblock \bibinfo{journal}{\emph{arXiv}} (\bibinfo{year}{2025}).
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/pdf/2505.05326}
+\showURL{%
+\tempurl}
+
+
+\end{thebibliography}

@@ -1,1 +1,25 @@
 \section{Discusión}
+
+Construir el Portal Agro-Comercial nos dejó una lección que va más allá del código: la brecha digital en el campo no se cierra simplemente entregando un software que funcione hoy. Se cierra garantizando que esa herramienta sobreviva mañana. No basta con lanzar código y cruzar los dedos; el sistema debe poder evolucionar sin volverse una carga imposible de operar. Aquí discutimos lo que aprendimos en este proceso, interpretando nuestros hallazgos bajo la lupa de los \textit{Feature Toggles}.
+
+\subsection{El Dilema: Complejidad vs. Tranquilidad}
+
+Nuestra propuesta técnica tiene un costo claro: introduce lógica condicional en un código que antes era una línea recta. \cite{sharma2024complexity} tienen razón al advertir que esto aumenta la carga cognitiva; leer el código se vuelve más difícil. Entonces, ¿vale la pena complicarnos la vida arquitectónicamente para un proyecto local en Teruel?
+
+Nuestra postura es un rotundo sí. En el contexto rural, la confianza del usuario pende de un hilo. Si un campesino intenta entrar a la plataforma justo después de una actualización y el sistema está caído, difícilmente volverá. En este escenario, la estabilidad es la moneda de cambio más valiosa. Al adoptar los toggles, estamos comprando seguridad operativa a cambio de complejidad de desarrollo. Tal como sugieren \cite{rahman2016msr}, el objetivo es que hacer un despliegue deje de ser un evento traumático para el equipo y se convierta en una tarea aburrida y rutinaria. Para un equipo pequeño que no puede pagar soporte 24/7, esa tranquilidad no tiene precio.
+
+\subsection{La Disciplina como Requisito de Supervivencia}
+
+Pero no todo es color de rosa. Un punto crítico que debemos admitir es el riesgo de la sostenibilidad. Al ser un proyecto que nace en la academia con ganas de crecer, el Portal corre el riesgo de llenarse de ``basura''.
+
+La literatura no miente: los toggles son una fuente peligrosa de deuda técnica. \cite{ortiz2021toggledebt} y \cite{abdalkareem2021removal} documentan un comportamiento humano muy común: a los desarrolladores se les olvida borrar las banderas viejas una vez que la función ya es estable. Si implementamos nuestra propuesta sin la disciplina férrea de limpieza automatizada que usa Uber \cite{sridharan2020piranha}, el portal se volverá inmanejable. Por tanto, nuestra discusión no es solo sobre C\# o Angular, sino sobre cultura: el éxito depende de entender que ``borrar código viejo'' es tan vital como escribir el nuevo.
+
+\subsection{Rompiendo el Mito del Software Rural}
+
+Este trabajo también busca romper una lanza a favor de la sofisticación. Existe el prejuicio de que las aplicaciones para el agro deben ser tecnológicamente simples o básicas. Nosotros diferimos. \cite{garcia2007informacion} ya argumentaban que las organizaciones complejas requieren gestión de conocimiento avanzada.
+
+Nosotros llevamos esa idea más lejos: el software rural merece arquitecturas tan robustas como las de la banca. La capacidad de encender o apagar módulos (como el catálogo o el QR) sin tumbar el resto del sistema —alineándonos con la entrega continua de \cite{meyer2016continuous}— demuestra que es posible llevar ingeniería de primer nivel a proyectos de impacto social. Se trata de innovar sin romper lo que ya funciona.
+
+\subsection{Lo que nos faltó (Limitaciones)}
+
+Finalmente, hay que ser honestos con el alcance de lo logrado. Primero, aunque el diseño técnico es sólido, el Portal ha sido validado en un entorno controlado (Teruel); todavía nos falta la prueba de fuego bajo una carga masiva real para medir la latencia de los toggles. Segundo, dejamos un pendiente importante en seguridad: \cite{li2020capture} advierten sobre el riesgo de exponer accidentalmente la configuración de las banderas en el código del cliente (navegador), un vector de ataque que tendremos que auditar y blindar en la siguiente fase del proyecto.

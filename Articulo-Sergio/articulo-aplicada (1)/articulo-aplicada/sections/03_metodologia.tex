@@ -1,10 +1,25 @@
-\section{Metodología de investigación aplicada}
-\subsection{Diseño}
+\section{Metodología}
 
-\subsection{Comparación de metodologías ágiles}
+Encarar este proyecto nos obligó a trabajar con dos sombreros distintos. Tuvimos que ser desarrolladores para levantar el sistema actual, pero también investigadores para planear su futuro. No podíamos quedarnos solo en la construcción del Portal Agro-Comercial tal como está hoy; era necesario ir más allá y analizar, lupa en mano, cómo los \textit{Feature Toggles} podían cambiarle la cara a la arquitectura. Así fue como unimos ambos mundos.
 
+\subsection{Fase 1: Ingeniería y Construcción del Portal}
 
+El Portal Agro-Comercial no apareció de la noche a la mañana. Nos decantamos por un desarrollo incremental porque, siendo realistas, la prioridad era la estabilidad. Necesitábamos probar que las funciones básicas realmente le servían al campo antes de ponernos a inventar arquitecturas complejas.
 
-\subsection{Datos e instrumentos}
+\subsubsection{Captura de Requisitos y Diseño}
 
-\subsection{Procedimiento y validez}
+Antes de escribir una sola línea de código, tuvimos que entender el terreno. El levantamiento de requisitos (SRS) tuvo una regla de oro: la usabilidad no se negocia. Hay que entender que nuestro usuario final en Teruel muchas veces no es un experto digital, así que el sistema tenía que ser intuitivo sí o sí. Definimos quién hace qué (Administrador, Productor, Consumidor) y nos enfocamos en historias de usuario que resolvieran lo urgente: mostrar la cosecha y facilitar el trato.
+
+Nos fuimos por lo seguro: una arquitectura cliente–servidor con una API REST en C\# y un frontend en Angular que la consume. No fue casualidad; elegimos este enfoque porque, en esta etapa formativa, necesitábamos desplegar rápido, mantener las responsabilidades bien separadas (backend y frontend) y conservar la complejidad bajo control.
+
+\subsubsection{Stack Tecnológico y Despliegue Actual}
+
+Hoy la plataforma se ejecuta sobre un backend en .NET expuesto como API REST y un frontend en Angular, ambos desplegados en Azure. El código se construye y distribuye mediante pipelines automatizados en Jenkins y se ejecuta dentro de contenedores, lo que nos permite mantener ambientes aislados (desarrollo, QA y producción). Este enfoque elimina las ventanas de mantenimiento, reduce el riesgo de caída del servicio durante los despliegues y nos proporciona una base mucho más flexible y escalable frente a los anteriores procesos manuales.
+
+\subsection{Fase 2: Construcción del Marco de Referencia (Feature Toggles)}
+
+Como el portal no nació listo para integración continua, la segunda parte del trabajo fue pura investigación. Tuvimos que sumergirnos en la literatura para trazar una ruta lógica de adopción de \textit{Feature Toggles}.
+
+Revisamos a fondo 20 artículos técnicos de los últimos años (2016–2025), pero no leímos por leer. Filtramos estrictamente aquellos que mostraban cómo una aplicación monolítica puede sobrevivir la transición a microservicios sin morir en el intento.
+
+Para no perdernos, usamos la clasificación de \cite{torres2020differences}. Esto fue clave para no confundirnos: una cosa es una simple opción de configuración que se queda quieta y otra muy distinta es un \textit{feature flag} dinámico. Con eso claro, aplicamos la lógica de detección de \cite{li2020capture} y \cite{wang2025tsdetector} sobre nuestro propio diseño para ubicar dónde deberían ir los puntos de inyección de los condicionales. Y para evitar que el código se nos vuelva un desastre a futuro, contrastamos nuestro proceso con los modelos de limpieza de \cite{abdalkareem2021removal}, definiendo desde ya un protocolo de “crear, usar y borrar” que explicaremos en los resultados.

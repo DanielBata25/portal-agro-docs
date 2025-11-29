@@ -1,1 +1,23 @@
-\section{Marco teórico y trabajos relacionados}
+\section{Trabajos Relacionados}
+
+La evolución del Portal Agro-Comercial no ocurre en el vacío; responde a un entorno de ingeniería de software donde la velocidad de entrega es lo que marca la diferencia. Para darle una base sólida a nuestra propuesta técnica, no nos limitamos a revisar la teoría, sino que analizamos la literatura reciente bajo tres lentes: cómo se despliega hoy en día, qué tan complejo es mantenerlo y el gran desafío de la deuda técnica al usar \textit{Feature Toggles}.
+
+\subsection{Estrategias de Despliegue y Configuración Dinámica}
+
+Pasar de webs monolíticas a arquitecturas vivas y dinámicas es una tendencia que ya no tiene vuelta atrás. \cite{meyer2016continuous} son claros al respecto: la entrega continua (\textit{Continuous Delivery}) ya no es un lujo opcional, sino un requisito para que los sistemas modernos no colapsen. Siguiendo esa lógica, \cite{ramaswamy2024zerodowntime} argumentan que si queremos ese anhelado ``tiempo de inactividad cero'', es obligatorio separar el acto de instalar código del acto de activarlo. Y ahí es donde las \textit{Feature Flags} se convierten en la pieza clave.
+
+Pero esto no es solo un tema del servidor (backend). \cite{lee2025frontend} ponen el foco en el frontend, algo vital para nuestro Portal Agro-Comercial. Imaginemos poder actualizar la vista de los productos sin que al agricultor se le recargue toda la página; esa es la promesa. Además, \cite{esther2025microservices} refuerzan la idea de que, en entornos de microservicios, estas configuraciones dinámicas son lo que mantiene la resiliencia del sistema.
+
+\subsection{Complejidad y Gestión de Deuda Técnica}
+
+Implementar \textit{Feature Toggles} tiene su costo. \cite{rahman2016msr}, en uno de los estudios más citados, advierten que llenar el código de toggles sin control lo vuelve inmanejable. Esta preocupación sigue vigente: \cite{sharma2024complexity} encontraron recientemente una relación directa entre la cantidad de toggles activos y la complejidad ciclomática, generando mayores dificultades de mantenimiento.
+
+De ahí surge el concepto de ``Deuda de Toggles'', abordado por \cite{ortiz2021toggledebt}, quien insiste en que debemos saber cuándo una bandera ya cumplió su propósito y debe eliminarse. Para el Portal, esto es crítico: la limpieza. \cite{sridharan2020piranha} muestran el ejemplo de Uber con su herramienta Piranha, probando que automatizar esta limpieza es posible. El problema, según \cite{abdalkareem2021removal}, es humano: los desarrolladores suelen posponer la eliminación de toggles viejos por miedo a romper algo, y así es como el riesgo se acumula silenciosamente.
+
+\subsection{Prácticas en la Industria y Taxonomías}
+
+Para implementar correctamente toggles en el Portal, es necesario observar prácticas industriales consolidadas. \cite{rahman2019chrome} analizaron Google Chrome y evidenciaron que su modularidad depende profundamente de un sistema masivo de toggles. En un contexto similar, \cite{smith2022interdependencies} estudiaron Microsoft Office y resaltaron un riesgo relevante: las interdependencias. Activar un toggle puede requerir que otro también esté habilitado, creando una red que \cite{hal2022interaction} denominan ``interacción de features''.
+
+Finalmente, clasificar correctamente los toggles resulta esencial. \cite{chen2025horizon} proponen el marco HORIZON para categorizar tipos de toggles, mientras que \cite{ajmeri2022heuristics} sugieren tratarlos como ``Toggles como Código''. La enseñanza clave es que no todos los toggles son iguales: no es lo mismo un permiso de administrador que un experimento temporal, y esta distinción fundamentará nuestra arquitectura propuesta.
+
+\input{tables/toggle_types}

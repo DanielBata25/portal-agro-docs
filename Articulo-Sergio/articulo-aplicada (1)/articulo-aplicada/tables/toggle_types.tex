@@ -1,0 +1,16 @@
+\begin{table}[htbp]
+\centering
+\caption{Clasificación y Propósito de Feature Toggles según la Literatura}
+\label{tab:toggle_types}
+\small
+\begin{tabular}{p{2.5cm} p{3.5cm} p{1.5cm}}
+\toprule
+\textbf{Tipo de Toggle} & \textbf{Propósito Principal} & \textbf{Duración} \\
+\midrule
+Release Toggles & Desacoplar despliegue de liberación de funciones \cite{rahman2016msr}. & Corta \\
+Business Toggles & Habilitar funciones premium o por segmento de usuario \cite{chen2025horizon}. & Larga \\
+Ops Toggles & Controlar aspectos operativos bajo carga (ej. deshabilitar reportes pesados) \cite{ramaswamy2024zerodowntime}. & Media \\
+Permission Toggles & Modificar comportamiento según rol (Admin/Productor) \cite{ajmeri2022heuristics}. & Larga \\
+\bottomrule
+\end{tabular}
+\end{table}

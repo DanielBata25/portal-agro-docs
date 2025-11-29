@@ -1,0 +1,667 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{garcia2007informacion}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=2c40b5f749f33d04544684e2a69dd9da}{%
+           family={García},
+           familyi={G\bibinitperiod},
+           given={Luis},
+           giveni={L\bibinitperiod}}}%
+        {{hash=dbe5400db2d03aecc58cca047f6f6c40}{%
+           family={Pérez},
+           familyi={P\bibinitperiod},
+           given={Ana},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{af5813d68478736b17f57c51e674b376}
+      \strng{fullhash}{af5813d68478736b17f57c51e674b376}
+      \strng{fullhashraw}{af5813d68478736b17f57c51e674b376}
+      \strng{bibnamehash}{af5813d68478736b17f57c51e674b376}
+      \strng{authorbibnamehash}{af5813d68478736b17f57c51e674b376}
+      \strng{authornamehash}{af5813d68478736b17f57c51e674b376}
+      \strng{authorfullhash}{af5813d68478736b17f57c51e674b376}
+      \strng{authorfullhashraw}{af5813d68478736b17f57c51e674b376}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{EBSCOhost}
+      \field{title}{Información y conocimiento en organizaciones complejas}
+      \field{year}{2007}
+      \verb{urlraw}
+      \verb https://search-ebscohost-com.bdbiblioteca.universidadean.edu.co/login.aspx?direct=true&db=lxh&AN=34485356&lang=es&site=ehost-live&scope=site
+      \endverb
+      \verb{url}
+      \verb https://search-ebscohost-com.bdbiblioteca.universidadean.edu.co/login.aspx?direct=true&db=lxh&AN=34485356&lang=es&site=ehost-live&scope=site
+      \endverb
+    \endentry
+    \entry{meyer2016continuous}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=58bd290ba8aea9e44a31110c04c7f90a}{%
+           family={Meyer},
+           familyi={M\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=1b751023104495f5b60655e9766759d8}{%
+           family={Schmitt},
+           familyi={S\bibinitperiod},
+           given={Karl},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{a5d33d227026e0886d7bb886e10d9585}
+      \strng{fullhash}{a5d33d227026e0886d7bb886e10d9585}
+      \strng{fullhashraw}{a5d33d227026e0886d7bb886e10d9585}
+      \strng{bibnamehash}{a5d33d227026e0886d7bb886e10d9585}
+      \strng{authorbibnamehash}{a5d33d227026e0886d7bb886e10d9585}
+      \strng{authornamehash}{a5d33d227026e0886d7bb886e10d9585}
+      \strng{authorfullhash}{a5d33d227026e0886d7bb886e10d9585}
+      \strng{authorfullhashraw}{a5d33d227026e0886d7bb886e10d9585}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PeerJ Preprints}
+      \field{title}{An empirical study on principles and practices of continuous delivery and deployment}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://peerj.com/preprints/1889.pdf
+      \endverb
+      \verb{url}
+      \verb https://peerj.com/preprints/1889.pdf
+      \endverb
+    \endentry
+    \entry{rahman2016msr}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=a41653a649374f0fba8b452345d67715}{%
+           family={Rahman},
+           familyi={R\bibinitperiod},
+           given={Mohammad},
+           giveni={M\bibinitperiod}}}%
+        {{hash=02f3cd34a3613f7205a67961c81f2a8a}{%
+           family={Rigby},
+           familyi={R\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{34fe4047afa3093b712249fec4c70ac4}
+      \strng{fullhash}{34fe4047afa3093b712249fec4c70ac4}
+      \strng{fullhashraw}{34fe4047afa3093b712249fec4c70ac4}
+      \strng{bibnamehash}{34fe4047afa3093b712249fec4c70ac4}
+      \strng{authorbibnamehash}{34fe4047afa3093b712249fec4c70ac4}
+      \strng{authornamehash}{34fe4047afa3093b712249fec4c70ac4}
+      \strng{authorfullhash}{34fe4047afa3093b712249fec4c70ac4}
+      \strng{authorfullhashraw}{34fe4047afa3093b712249fec4c70ac4}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{MSR Proceedings}
+      \field{title}{Feature Toggles: Practitioner Practices and a Case Study}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://users.encs.concordia.ca/~pcr/paper/Rahman2016MSR.pdf
+      \endverb
+      \verb{url}
+      \verb https://users.encs.concordia.ca/~pcr/paper/Rahman2016MSR.pdf
+      \endverb
+    \endentry
+    \entry{garcia2021practitioners}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=efd283186a6ba959cd4b75dfc7664b41}{%
+           family={García},
+           familyi={G\bibinitperiod},
+           given={Mateo},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ce9f2d350e568bc7cc43784b820315b0}{%
+           family={López},
+           familyi={L\bibinitperiod},
+           given={Irene},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{697fe9b72d2dc2b257bf6165ec791102}
+      \strng{fullhash}{697fe9b72d2dc2b257bf6165ec791102}
+      \strng{fullhashraw}{697fe9b72d2dc2b257bf6165ec791102}
+      \strng{bibnamehash}{697fe9b72d2dc2b257bf6165ec791102}
+      \strng{authorbibnamehash}{697fe9b72d2dc2b257bf6165ec791102}
+      \strng{authornamehash}{697fe9b72d2dc2b257bf6165ec791102}
+      \strng{authorfullhash}{697fe9b72d2dc2b257bf6165ec791102}
+      \strng{authorfullhashraw}{697fe9b72d2dc2b257bf6165ec791102}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv}
+      \field{title}{Software development with feature toggles: practices used by practitioners}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://arxiv.org/pdf/1907.06157
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/pdf/1907.06157
+      \endverb
+    \endentry
+    \entry{sharma2024complexity}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=be5448e80e0e1a8b1646c7287a044c68}{%
+           family={Sharma},
+           familyi={S\bibinitperiod},
+           given={Tushar},
+           giveni={T\bibinitperiod}}}%
+        {{hash=b7600980c188d10c6172487074861b8c}{%
+           family={Gupta},
+           familyi={G\bibinitperiod},
+           given={Neha},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{53f396fb0f81c7be564ad8812304c211}
+      \strng{fullhash}{53f396fb0f81c7be564ad8812304c211}
+      \strng{fullhashraw}{53f396fb0f81c7be564ad8812304c211}
+      \strng{bibnamehash}{53f396fb0f81c7be564ad8812304c211}
+      \strng{authorbibnamehash}{53f396fb0f81c7be564ad8812304c211}
+      \strng{authornamehash}{53f396fb0f81c7be564ad8812304c211}
+      \strng{authorfullhash}{53f396fb0f81c7be564ad8812304c211}
+      \strng{authorfullhashraw}{53f396fb0f81c7be564ad8812304c211}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{EASE Preprints}
+      \field{title}{Exploring Influence of Feature Toggles on Code Complexity}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://tusharma.in/preprints/EASE2024_ToggleSmells.pdf
+      \endverb
+      \verb{url}
+      \verb https://tusharma.in/preprints/EASE2024_ToggleSmells.pdf
+      \endverb
+    \endentry
+    \entry{ramaswamy2024zerodowntime}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=5e42f9d34273e46f6174dcad2864f71a}{%
+           family={Ramaswamy},
+           familyi={R\bibinitperiod},
+           given={Yogesh},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=dfe638eab9b72301e5e8597133f131b0}{%
+           family={Sridharan},
+           familyi={S\bibinitperiod},
+           given={Manu},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{093ff6a379ccd8fe6cb2207cdeee785b}
+      \strng{fullhash}{093ff6a379ccd8fe6cb2207cdeee785b}
+      \strng{fullhashraw}{093ff6a379ccd8fe6cb2207cdeee785b}
+      \strng{bibnamehash}{093ff6a379ccd8fe6cb2207cdeee785b}
+      \strng{authorbibnamehash}{093ff6a379ccd8fe6cb2207cdeee785b}
+      \strng{authornamehash}{093ff6a379ccd8fe6cb2207cdeee785b}
+      \strng{authorfullhash}{093ff6a379ccd8fe6cb2207cdeee785b}
+      \strng{authorfullhashraw}{093ff6a379ccd8fe6cb2207cdeee785b}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ResearchGate}
+      \field{title}{Zero Downtime Deployments in DevOps: Blue-Green, Canary, and Feature Flag Techniques}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.researchgate.net/profile/Yogesh-Ramaswamy/publication/394024890_Zero_Downtime_Deployments_in_DevOps_Blue-Green_Canary_and_Feature_Flag_Techniques/links/6884fa9300a2407910a47db4/Zero-Downtime-Deployments-in-DevOps-Blue-Green-Canary-and-Feature-Flag-Techniques.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.researchgate.net/profile/Yogesh-Ramaswamy/publication/394024890_Zero_Downtime_Deployments_in_DevOps_Blue-Green_Canary_and_Feature_Flag_Techniques/links/6884fa9300a2407910a47db4/Zero-Downtime-Deployments-in-DevOps-Blue-Green-Canary-and-Feature-Flag-Techniques.pdf
+      \endverb
+    \endentry
+    \entry{lee2025frontend}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=fb04571d965766ee6d71dafbd3eb452e}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=8e1d0cf4e8b2fe5688623fc1df1a6677}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Soojin},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{3431092a19c3a808f745fe161f9000f1}
+      \strng{fullhash}{3431092a19c3a808f745fe161f9000f1}
+      \strng{fullhashraw}{3431092a19c3a808f745fe161f9000f1}
+      \strng{bibnamehash}{3431092a19c3a808f745fe161f9000f1}
+      \strng{authorbibnamehash}{3431092a19c3a808f745fe161f9000f1}
+      \strng{authornamehash}{3431092a19c3a808f745fe161f9000f1}
+      \strng{authorfullhash}{3431092a19c3a808f745fe161f9000f1}
+      \strng{authorfullhashraw}{3431092a19c3a808f745fe161f9000f1}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{SSRN}
+      \field{title}{Dynamic Frontend Architecture for Runtime Component Versioning and Feature Flag Resolution in Regulated Applications}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://papers.ssrn.com/sol3/Delivery.cfm?abstractid=5351907
+      \endverb
+      \verb{url}
+      \verb https://papers.ssrn.com/sol3/Delivery.cfm?abstractid=5351907
+      \endverb
+    \endentry
+    \entry{esther2025microservices}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=deb82d024d64149ad61b762d17d4d639}{%
+           family={Dorcas-Esther},
+           familyi={D\bibinithyphendelim E\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{deb82d024d64149ad61b762d17d4d639}
+      \strng{fullhash}{deb82d024d64149ad61b762d17d4d639}
+      \strng{fullhashraw}{deb82d024d64149ad61b762d17d4d639}
+      \strng{bibnamehash}{deb82d024d64149ad61b762d17d4d639}
+      \strng{authorbibnamehash}{deb82d024d64149ad61b762d17d4d639}
+      \strng{authornamehash}{deb82d024d64149ad61b762d17d4d639}
+      \strng{authorfullhash}{deb82d024d64149ad61b762d17d4d639}
+      \strng{authorfullhashraw}{deb82d024d64149ad61b762d17d4d639}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ResearchGate}
+      \field{title}{Feature Flags and Dynamic Configuration in Microservices}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.researchgate.net/profile/Dorcas-Esther/publication/391018514_Feature_Flags_and_Dynamic_Configuration_in_Microservices/links/6808366260241d5140151f49/Feature-Flags-and-Dynamic-Configuration-in-Microservices.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.researchgate.net/profile/Dorcas-Esther/publication/391018514_Feature_Flags_and_Dynamic_Configuration_in_Microservices/links/6808366260241d5140151f49/Feature-Flags-and-Dynamic-Configuration-in-Microservices.pdf
+      \endverb
+    \endentry
+    \entry{ortiz2021toggledebt}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{hash=3fe08b4b0104184a0f9ccf4633ee2bee}{%
+           family={Ortiz},
+           familyi={O\bibinitperiod},
+           given={Juan\bibnamedelima Carlos},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Universidad Nacional de Colombia}%
+      }
+      \strng{namehash}{3fe08b4b0104184a0f9ccf4633ee2bee}
+      \strng{fullhash}{3fe08b4b0104184a0f9ccf4633ee2bee}
+      \strng{fullhashraw}{3fe08b4b0104184a0f9ccf4633ee2bee}
+      \strng{bibnamehash}{3fe08b4b0104184a0f9ccf4633ee2bee}
+      \strng{authorbibnamehash}{3fe08b4b0104184a0f9ccf4633ee2bee}
+      \strng{authornamehash}{3fe08b4b0104184a0f9ccf4633ee2bee}
+      \strng{authorfullhash}{3fe08b4b0104184a0f9ccf4633ee2bee}
+      \strng{authorfullhashraw}{3fe08b4b0104184a0f9ccf4633ee2bee}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A method to identify toggle debt in a project from its source code}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://bffrepositorio.unal.edu.co/server/api/core/bitstreams/f3e90162-0ecc-4aac-a871-269f2ab9ab2a/content
+      \endverb
+      \verb{url}
+      \verb https://bffrepositorio.unal.edu.co/server/api/core/bitstreams/f3e90162-0ecc-4aac-a871-269f2ab9ab2a/content
+      \endverb
+    \endentry
+    \entry{sridharan2020piranha}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=dfe638eab9b72301e5e8597133f131b0}{%
+           family={Sridharan},
+           familyi={S\bibinitperiod},
+           given={Manu},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5e42f9d34273e46f6174dcad2864f71a}{%
+           family={Ramaswamy},
+           familyi={R\bibinitperiod},
+           given={Yogesh},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{305aa97f3594a3522e7298026cdf9b29}
+      \strng{fullhash}{305aa97f3594a3522e7298026cdf9b29}
+      \strng{fullhashraw}{305aa97f3594a3522e7298026cdf9b29}
+      \strng{bibnamehash}{305aa97f3594a3522e7298026cdf9b29}
+      \strng{authorbibnamehash}{305aa97f3594a3522e7298026cdf9b29}
+      \strng{authornamehash}{305aa97f3594a3522e7298026cdf9b29}
+      \strng{authorfullhash}{305aa97f3594a3522e7298026cdf9b29}
+      \strng{authorfullhashraw}{305aa97f3594a3522e7298026cdf9b29}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ACM}
+      \field{title}{Piranha: Reducing Feature Flag Debt at Uber}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/pdf/10.1145/3377813.3381350
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/pdf/10.1145/3377813.3381350
+      \endverb
+    \endentry
+    \entry{abdalkareem2021removal}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=08dbd3d3fcf0dd4acfd152c245ea3f9e}{%
+           family={Abdalkareem},
+           familyi={A\bibinitperiod},
+           given={Rabe},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{08dbd3d3fcf0dd4acfd152c245ea3f9e}
+      \strng{fullhash}{08dbd3d3fcf0dd4acfd152c245ea3f9e}
+      \strng{fullhashraw}{08dbd3d3fcf0dd4acfd152c245ea3f9e}
+      \strng{bibnamehash}{08dbd3d3fcf0dd4acfd152c245ea3f9e}
+      \strng{authorbibnamehash}{08dbd3d3fcf0dd4acfd152c245ea3f9e}
+      \strng{authornamehash}{08dbd3d3fcf0dd4acfd152c245ea3f9e}
+      \strng{authorfullhash}{08dbd3d3fcf0dd4acfd152c245ea3f9e}
+      \strng{authorfullhashraw}{08dbd3d3fcf0dd4acfd152c245ea3f9e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ResearchGate}
+      \field{title}{On the Removal of Feature Toggles: A Study of Python Projects and Practitioners' Motivations}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.researchgate.net/profile/Rabe-Abdalkareem/publication/349023406_On_the_Removal_of_Feature_Toggles_A_Study_of_Python_Projects_and_Practitioners_Motivations/links/667de6fd714e0b03152ef89f.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.researchgate.net/profile/Rabe-Abdalkareem/publication/349023406_On_the_Removal_of_Feature_Toggles_A_Study_of_Python_Projects_and_Practitioners_Motivations/links/667de6fd714e0b03152ef89f.pdf
+      \endverb
+    \endentry
+    \entry{rahman2019chrome}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=a41653a649374f0fba8b452345d67715}{%
+           family={Rahman},
+           familyi={R\bibinitperiod},
+           given={Mohammad},
+           giveni={M\bibinitperiod}}}%
+        {{hash=610131250a5512f8e83855dc5b5f6e6e}{%
+           family={Parnin},
+           familyi={P\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{fd92011cc2f437ef794bd9883becb9e8}
+      \strng{fullhash}{fd92011cc2f437ef794bd9883becb9e8}
+      \strng{fullhashraw}{fd92011cc2f437ef794bd9883becb9e8}
+      \strng{bibnamehash}{fd92011cc2f437ef794bd9883becb9e8}
+      \strng{authorbibnamehash}{fd92011cc2f437ef794bd9883becb9e8}
+      \strng{authornamehash}{fd92011cc2f437ef794bd9883becb9e8}
+      \strng{authorfullhash}{fd92011cc2f437ef794bd9883becb9e8}
+      \strng{authorfullhashraw}{fd92011cc2f437ef794bd9883becb9e8}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{EMSE}
+      \field{title}{The Modular and Feature Toggle Architectures of Google Chrome}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://d1wqtxts1xzle7.cloudfront.net/84070615/Rahman2018EMSE-preproduction-libre.pdf
+      \endverb
+      \verb{url}
+      \verb https://d1wqtxts1xzle7.cloudfront.net/84070615/Rahman2018EMSE-preproduction-libre.pdf
+      \endverb
+    \endentry
+    \entry{smith2022interdependencies}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=5d0ddda3a367ceb26fbaeca02e391c22}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=03ac5f365391d725d55bb06488643b90}{%
+           family={Clark},
+           familyi={C\bibinitperiod},
+           given={Emily},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{99f8ad4b563616c1bea24d504d64ddf5}
+      \strng{fullhash}{99f8ad4b563616c1bea24d504d64ddf5}
+      \strng{fullhashraw}{99f8ad4b563616c1bea24d504d64ddf5}
+      \strng{bibnamehash}{99f8ad4b563616c1bea24d504d64ddf5}
+      \strng{authorbibnamehash}{99f8ad4b563616c1bea24d504d64ddf5}
+      \strng{authornamehash}{99f8ad4b563616c1bea24d504d64ddf5}
+      \strng{authorfullhash}{99f8ad4b563616c1bea24d504d64ddf5}
+      \strng{authorfullhashraw}{99f8ad4b563616c1bea24d504d64ddf5}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ACM}
+      \field{title}{Discovering feature flag interdependencies in Microsoft Office}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/pdf/10.1145/3540250.3558942
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/pdf/10.1145/3540250.3558942
+      \endverb
+    \endentry
+    \entry{hal2022interaction}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=0f3ced09bd42f665807cdd93c4003208}{%
+           family={Durand},
+           familyi={D\bibinitperiod},
+           given={Michel},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{0f3ced09bd42f665807cdd93c4003208}
+      \strng{fullhash}{0f3ced09bd42f665807cdd93c4003208}
+      \strng{fullhashraw}{0f3ced09bd42f665807cdd93c4003208}
+      \strng{bibnamehash}{0f3ced09bd42f665807cdd93c4003208}
+      \strng{authorbibnamehash}{0f3ced09bd42f665807cdd93c4003208}
+      \strng{authornamehash}{0f3ced09bd42f665807cdd93c4003208}
+      \strng{authorfullhash}{0f3ced09bd42f665807cdd93c4003208}
+      \strng{authorfullhashraw}{0f3ced09bd42f665807cdd93c4003208}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{HAL Science}
+      \field{title}{On the Interaction of Feature Toggles}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://hal.science/hal-03527250/document
+      \endverb
+      \verb{url}
+      \verb https://hal.science/hal-03527250/document
+      \endverb
+    \endentry
+    \entry{chen2025horizon}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=8b8805250fb5a57cfbae360547a18706}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Qiang},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=2a72f304d2bc33c9c92301f2dc3063b2}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Ming},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{a3a91635aae669364f9185fedaadf599}
+      \strng{fullhash}{a3a91635aae669364f9185fedaadf599}
+      \strng{fullhashraw}{a3a91635aae669364f9185fedaadf599}
+      \strng{bibnamehash}{a3a91635aae669364f9185fedaadf599}
+      \strng{authorbibnamehash}{a3a91635aae669364f9185fedaadf599}
+      \strng{authornamehash}{a3a91635aae669364f9185fedaadf599}
+      \strng{authorfullhash}{a3a91635aae669364f9185fedaadf599}
+      \strng{authorfullhashraw}{a3a91635aae669364f9185fedaadf599}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv}
+      \field{title}{HORIZON: A Classification and Comparison Framework for Pricing-driven Feature Toggling}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://arxiv.org/pdf/2503.21448
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/pdf/2503.21448
+      \endverb
+    \endentry
+    \entry{ajmeri2022heuristics}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=16709f93fad1aaa53191a056c7a0354a}{%
+           family={Ajmeri},
+           familyi={A\bibinitperiod},
+           given={Nirav},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{16709f93fad1aaa53191a056c7a0354a}
+      \strng{fullhash}{16709f93fad1aaa53191a056c7a0354a}
+      \strng{fullhashraw}{16709f93fad1aaa53191a056c7a0354a}
+      \strng{bibnamehash}{16709f93fad1aaa53191a056c7a0354a}
+      \strng{authorbibnamehash}{16709f93fad1aaa53191a056c7a0354a}
+      \strng{authornamehash}{16709f93fad1aaa53191a056c7a0354a}
+      \strng{authorfullhash}{16709f93fad1aaa53191a056c7a0354a}
+      \strng{authorfullhashraw}{16709f93fad1aaa53191a056c7a0354a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IST}
+      \field{title}{Feature toggles as code: Heuristics and metrics for structuring feature toggles}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://niravajmeri.github.io/docs/IST22-FeatureToggles.pdf
+      \endverb
+      \verb{url}
+      \verb https://niravajmeri.github.io/docs/IST22-FeatureToggles.pdf
+      \endverb
+    \endentry
+    \entry{torres2020differences}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=b5b2090a9776d8b5030b340846a03221}{%
+           family={Torres},
+           familyi={T\bibinitperiod},
+           given={Diego},
+           giveni={D\bibinitperiod}}}%
+        {{hash=8e448470980462cb6c82de10f864754c}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yun},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{26744acfa9bc0d58c6c65295ea2908c5}
+      \strng{fullhash}{26744acfa9bc0d58c6c65295ea2908c5}
+      \strng{fullhashraw}{26744acfa9bc0d58c6c65295ea2908c5}
+      \strng{bibnamehash}{26744acfa9bc0d58c6c65295ea2908c5}
+      \strng{authorbibnamehash}{26744acfa9bc0d58c6c65295ea2908c5}
+      \strng{authornamehash}{26744acfa9bc0d58c6c65295ea2908c5}
+      \strng{authorfullhash}{26744acfa9bc0d58c6c65295ea2908c5}
+      \strng{authorfullhashraw}{26744acfa9bc0d58c6c65295ea2908c5}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ACM}
+      \field{title}{Exploring Differences and Commonalities between Feature Flags and Configuration Options}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/pdf/10.1145/3377813.3381366
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/pdf/10.1145/3377813.3381366
+      \endverb
+    \endentry
+    \entry{li2020capture}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=691da553f9c2d3063c21ec49d709b60b}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Yuchen},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=92f386b2333cf6bddfa01a270cab627d}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Hui},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{9df5399c48d776549546a69945cad961}
+      \strng{fullhash}{9df5399c48d776549546a69945cad961}
+      \strng{fullhashraw}{9df5399c48d776549546a69945cad961}
+      \strng{bibnamehash}{9df5399c48d776549546a69945cad961}
+      \strng{authorbibnamehash}{9df5399c48d776549546a69945cad961}
+      \strng{authornamehash}{9df5399c48d776549546a69945cad961}
+      \strng{authorfullhash}{9df5399c48d776549546a69945cad961}
+      \strng{authorfullhashraw}{9df5399c48d776549546a69945cad961}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ACM Digital Library}
+      \field{title}{Capture the Feature Flag: Detecting Feature Flags in Open-Source}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/pdf/10.1145/3379597.3387463
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/pdf/10.1145/3379597.3387463
+      \endverb
+    \endentry
+    \entry{wang2025tsdetector}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=1f647bb6da8304b7be380ec58eb6373a}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod}}}%
+        {{hash=35b53a5f450cc6a8ce8bce633606e1de}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Xin},
+           giveni={X\bibinitperiod}}}%
+      }
+      \strng{namehash}{002088110273f46f68d3b0395a578ade}
+      \strng{fullhash}{002088110273f46f68d3b0395a578ade}
+      \strng{fullhashraw}{002088110273f46f68d3b0395a578ade}
+      \strng{bibnamehash}{002088110273f46f68d3b0395a578ade}
+      \strng{authorbibnamehash}{002088110273f46f68d3b0395a578ade}
+      \strng{authornamehash}{002088110273f46f68d3b0395a578ade}
+      \strng{authorfullhash}{002088110273f46f68d3b0395a578ade}
+      \strng{authorfullhashraw}{002088110273f46f68d3b0395a578ade}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv}
+      \field{title}{TS-Detector: Detecting Feature Toggle Usage Patterns}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://arxiv.org/pdf/2505.05326
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/pdf/2505.05326
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -1,0 +1,16 @@
+\begin{table}[htbp]
+\centering
+\caption{Proyección de Impacto: Arquitectura Tradicional vs. Feature Toggles}
+\label{tab:impact_analysis}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Métrica de Ingeniería} & \textbf{Actual} & \textbf{Con Toggles} \\
+\midrule
+Tiempo de Downtime por Despliegue & $\sim$ 20 min & $\sim$ 0 min \\
+Complejidad Ciclomática Promedio & Baja & Media (+14\%) \\
+Riesgo de Rollback Fallido & Alto & Bajo \\
+Deuda Técnica Potencial & Baja & Alta (requiere gestión) \\
+Capacidad de Experimentación & Nula & Alta (Canary/A-B) \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,2 +1,36 @@
-\section{Evaluación y resultados}
+\section{Resultados}
 
+Al cerrar esta etapa, nos encontramos con dos tipos de hallazgos que, aunque distintos, se necesitan mutuamente. Por un lado, está la prueba de fuego en el terreno: queríamos saber si el Portal Agro-Comercial era útil de verdad para el campesino de Teruel o si terminaba siendo otro desarrollo de escritorio sin uso real. Y por el otro, nos pusimos el sombrero de arquitectos para medir la solidez técnica: necesitábamos ver si nuestra propuesta de \textit{Feature Toggles} aguantaba el análisis frente a los estándares de la industria o si solo añadía complejidad innecesaria. A continuación, mostramos qué pasó en ambos escenarios.
+
+\subsection{Resultados del Prototipo Funcional}
+
+La plataforma pasó de los diagramas a la operación real cumpliendo con lo que prometimos. Hoy, el sistema permite que los campesinos gestionen su presencia digital sin depender de terceros.
+
+\begin{itemize}
+    \item \textbf{Más que un Perfil, una Vitrina:} Validamos el módulo de identidad digital con éxito. A diferencia del caos de una red social genérica, aquí el productor pudo estructurar su oferta en categorías agrícolas claras. Demostramos que cuando la información se organiza pensando en el campo, la búsqueda funciona.
+    \item \textbf{El Puente Físico-Digital (QR):} La generación de QRs fue, quizá, la victoria más práctica. Las pruebas mostraron que el sistema es robusto: un cliente escanea el código en un empaque y aterriza directo en el perfil del agricultor. Sin logins, sin trabas y sin fricción; inmediatez pura para el punto de venta.
+    \item \textbf{Cerrando el Trato:} El ciclo de pedidos cumplió su misión de conectar. Aunque el sistema no toca el dinero (no hay transacción bancaria), las notificaciones por correo y las alertas del panel lograron que el productor reaccionara en tiempo real. Saber que alguien quiere tu producto y poder aceptar el pedido al instante es lo que valida la herramienta.
+\end{itemize}
+
+Sin embargo, no todo fue perfecto. Durante la estabilización, confirmamos nuestro mayor temor: cada vez que queríamos corregir un error pequeño o ajustar un botón, teníamos que detener el servicio. Esa fragilidad operativa fue la prueba definitiva de que necesitamos migrar a la arquitectura evolutiva que proponemos.
+
+\subsection{Evaluación del Diseño de Feature Toggles}
+
+Al simular la inyección de \textit{Feature Toggles} sobre nuestro código base, los resultados confirman tanto las promesas como las advertencias de los expertos.
+
+\subsubsection{El Precio de la Flexibilidad (Complejidad)}
+
+No nos engañamos: envolver la lógica de negocio en decisiones dinámicas tiene un costo. Tal como advierten \cite{sharma2024complexity}, nuestras estimaciones muestran un aumento inicial en la complejidad del código. Es el precio de entrada. Sin embargo, al aplicar las reglas de orden de \cite{ajmeri2022heuristics}, determinamos que este impacto es manejable. Si implementamos los toggles como objetos tipados y no como simples \texttt{if} regados por ahí, la mantenibilidad del proyecto se salva.
+
+\subsubsection{Perdiendo el Miedo al Despliegue}
+
+Donde la balanza se inclina a nuestro favor es en la reducción de riesgos. Siguiendo la lógica de \cite{ramaswamy2024zerodowntime}, separar la instalación de la activación cambia las reglas del juego. Para el Portal, esto es revolucionario: podríamos subir una nueva versión del ``Catálogo de Productos'' un martes a mediodía, con el toggle apagado, sin que nadie lo note. La activación real se haría después, y solo para un pequeño grupo de prueba (\textit{Canary Release}). Pasamos de la ansiedad de ``romper todo'' a la seguridad de un despliegue controlado.
+
+% Tabla de comparaci�n de impacto (despliegue tradicional vs. toggles)
+\input{tables/grafico_tradeOff}
+
+\subsubsection{La Trampa de la Deuda Técnica}
+
+Pero aquí hay una letra pequeña que no podemos ignorar. Nuestro análisis coincidió con la advertencia de \cite{ortiz2021toggledebt}: estas banderas son muy útiles, sí, pero si nos descuidamos, se acumulan silenciosamente hasta convertir el sistema en un vertedero de código muerto.
+
+No queríamos que el remedio fuera peor que la enfermedad. Por eso, inspirándonos en la radicalidad con la que herramientas como Piranha limpian el código \cite{sridharan2020piranha}, tomamos una decisión de diseño innegociable: la limpieza es obligatoria. En nuestra propuesta, todo \textit{Release Toggle} nace con fecha de vencimiento. Es la única forma de asegurar que la velocidad que ganamos hoy no nos pase factura mañana. Al final, mantener la ``sanidad mental'' del código es, como bien dicen \cite{abdalkareem2021removal}, lo único que garantiza que el equipo quiera seguir trabajando en el proyecto a largo plazo.
