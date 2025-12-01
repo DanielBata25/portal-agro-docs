@@ -59,9 +59,8 @@ El proyecto se encuentra dividido en varios repositorios según su responsabilid
 | Componente | Descripción | Enlace |
 |-------------|--------------|--------|
 | 🖥️ **Portal (Frontend Web)** | Interfaz web desarrollada en Angular, accesible desde navegadores. | [portal-agro-portal](https://github.com/Leguizamo2502/portal-agro-portal) |
-| ⚙️ **API (Backend)** | Servicios web REST desarrollados en .NET 8 para manejo de lógica de negocio. | [portal-agro-api](https://github.com/Leguizamo2502/portal-agro-api) |
+| ⚙️ **API (Backend)** | Servicios web REST desarrollados en .NET 8 para manejo de lógica de negocio. | [portal-agro-api](https://github.com/Leguizamo2502/portal-agro-huila-api) |
 | 📱 **App Móvil** | Versión móvil híbrida construida con Ionic y Angular. | [portal-agro-app](https://github.com/DanielBata25/portal-agro-app) |
-| 🗄️ **Base de datos** | Scripts, modelos y configuraciones SQL / PostgreSQL para persistencia de datos. | [portal-agro-db](https://github.com/Leguizamo2502/portal-agro-db) |
 | 📘 **Documentación (Actual)** | Guías, diagramas y reportes técnicos y funcionales del proyecto. | *(Este repositorio)* |
 
 ---
